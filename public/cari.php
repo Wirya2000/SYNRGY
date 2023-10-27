@@ -95,15 +95,14 @@
           <input type="text" name="jumlah_penumpang" id="jumlah_penumpang" style="width: 100%;">
         </div>
         <div class="col-md-1">
-          <button class="btn-green" id="btn_cari" onclick="cariMobil()">Cari Mobil</button>
+          <button class="btn-green" id="btn_cari">Cari Mobil</button>
         </div>
       </div>
     </div>
     <div class="container" id="carContainerElement">
-      <div class="card" style="width: 18rem;">
+      <!-- <div class="card" style="width: 18rem;">
         <img src="images/car01.min.jpg" class="card-img-top" alt="">
         <div class="card-body">
-          <!-- <h5 class="card-title">Card title</h5> -->
           <p class="card-text">Nama/Tipe Mobil</p>
           <p class="card-text">Rp 430.000 / hari</p>
           <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi consequatur ipsum excepturi voluptatum cumque ea alias dolorem sed.</p>
@@ -112,7 +111,7 @@
           <p class="card-text"><i data-feather="calendar"></i>Tahun 2020</p>
           <a href="#" class="btn btn-green">Pilih Mobil</a>
         </div>
-      </div>
+      </div> -->
     </div>
   </article>
 
@@ -155,17 +154,17 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="/scripts/index.js"></script>
-  <script src="/scripts/binar.js"></script>
+  <!-- <script src="/scripts/binar.js"></script> -->
   <script src="/scripts/app.js"></script>
   <script>
-    function cariMobil() {
-      var tipe_driver = document.getElementById('tipe_driver');
-      var tanggal = document.getElementById('tanggal');
-      var waktu = document.getElementById('waktu');
-      var jumlah_penumpang = document.getElementById('jumlah_penumpang');
-      console.log(tipe_driver);
-      const newCar = new Car(tipe_driver, )
-    }
+    // function cariMobil() {
+    //   var tipe_driver = document.getElementById('tipe_driver');
+    //   var tanggal = document.getElementById('tanggal');
+    //   var waktu = document.getElementById('waktu');
+    //   var jumlah_penumpang = document.getElementById('jumlah_penumpang');
+    //   console.log(tipe_driver);
+    //   const newCar = new Car(tipe_driver, )
+    // }
   </script>
   <script>
     feather.replace();

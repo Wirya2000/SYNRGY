@@ -44,7 +44,6 @@ class Car extends Component {
       <div class="card" style="width: 18rem;">
         <img src="${this.image}" class="card-img-top" alt="">
         <div class="card-body">
-          <!-- <h5 class="card-title">Card title</h5> -->
           <p class="card-text">${this.manufacture}/${this.model}</p>
           <p class="card-text">Rp ${this.rentPerDay} / hari</p>
           <p class="card-text">${this.description}</p>
